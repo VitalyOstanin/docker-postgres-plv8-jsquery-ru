@@ -2,7 +2,6 @@ FROM clkao/postgres-plv8:9.5-1.5
 
 MAINTAINER Vitaly Ostanin <vitaly.ostanin@gmail.com>
 
-ENV PG_MAJOR=9.5
 ENV JSQUERY_VERSION=ver_1.0.0
 ENV JSQUERY_DIR=jsquery-${JSQUERY_VERSION}
 ENV JSQUERY_ARCHIVE=${JSQUERY_DIR}.tar.gz
